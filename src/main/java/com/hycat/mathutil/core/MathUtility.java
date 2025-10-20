@@ -11,15 +11,13 @@ public class MathUtility {
     // 0...20 -> valid boundary validated boundary - vùng giá trị hợp lệ
     //0,20 -> boundary value - biên giới của tập giá trị
     //        xích thêm 1 xíu là vượt biên k tính đc
+    // viết hàm theo phong cách đệ quy
     public static long getFactorial(int n){
         if(n<0 || n>20){
             throw new IllegalArgumentException("n must be between 0 and 20");
         }
-        long result = 1;
-        for(int i = 1; i <= n; i++){
-            result *= i;
-        }
-        return result;
+        if(n==0 || n==1){return 1;}
+        return n*getFactorial(n-1);
 
     }
 }
