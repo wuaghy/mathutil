@@ -9,3 +9,4 @@
 ![Image show source code](https://github.com/WuagHy/mathutil/blob/main/images/TDD_DDT_JUnit.png))
 #### connect  me via nguyenquanghuy14022005@gmail.com
 #### &#169; 2025 wuang.huy
+[![Math Utility Project (CI included) | 2025 by wuaghy](https://github.com/wuaghy/mathutil/actions/workflows/ci-script.yml/badge.svg)](https://github.com/wuaghy/mathutil/actions/workflows/ci-script.yml)
